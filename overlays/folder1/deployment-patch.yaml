@@ -6,6 +6,7 @@ spec:
   template:
     spec:
       containers:
+          image: dev1s/my-flask-app:latest
         - name: flask-1
           env:
             - name: MAIN_TEXT
