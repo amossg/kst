@@ -7,7 +7,7 @@ resources:
 patches:
   - patch: |-
       - op: replace
-        path: "/spec/template/spec/containers/0/env/1"
+        path: "/spec/template/spec/containers/0/env/0"
         value:
           name: MAIN_TEXT
           value: "Hello from folder #1"
