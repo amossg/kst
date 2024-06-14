@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: flask-def
-        image: dev1s/my-flask-app
+        image: dev1s/my-flask-app:v3
         ports:
         - containerPort: 5000
         envFrom:
