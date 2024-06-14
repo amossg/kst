@@ -17,6 +17,5 @@ spec:
         image: dev1s/my-flask-app
         ports:
         - containerPort: 5000
-        env:
-        - name: MAIN_TEXT
-          value: "Hello from hell"
+        envFrom:
+        - name: my-app-config

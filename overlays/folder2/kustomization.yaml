@@ -3,14 +3,4 @@ kind: Kustomization
 namespace: flask2
 resources:
   - ../../base
-
-patches:
-  - patch: |-
-      - op: replace
-        path: "/spec/template/spec/containers/0/env/0"
-        value:
-          name: MAIN_TEXT
-          value: "Hello from second folder"
-    target:
-      kind: Deployment
-      name: flask
+  - ./configmap.yaml
