@@ -6,7 +6,7 @@ spec:
   template:
     spec:
       containers:
-        - name: dev1s/my-flask-app:latest
+        - name: dev1s/my-flask-app
           env:
             - name: MAIN_TEXT
               value: "Hello from second folder"
