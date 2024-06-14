@@ -2,5 +2,5 @@ namespace: flask1
 resources:
   - ../../base
 
-patchesStrategicMerge:
+patches:
   - deployment-patch.yaml
