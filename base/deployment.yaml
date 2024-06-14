@@ -13,7 +13,7 @@ spec:
         app: my-flask-app
     spec:
       containers:
-      - name: flask
+      - name: flask-def
         image: dev1s/my-flask-app
         ports:
         - containerPort: 5000
