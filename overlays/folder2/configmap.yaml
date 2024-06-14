@@ -3,4 +3,7 @@ kind: ConfigMap
 metadata:
   name: my-app-config
 data:
-  MAIN_TEXT: "Hello from ConfigMap"
+  MAIN_TEXT_1: "Hello from prod ConfigMap 1"
+  MAIN_TEXT_3: "Hello from prod ConfigMap 3"
+  MAIN_TEXT_5: "Hello from prod ConfigMap 5"
+  VARSEES_32: "nihao"
