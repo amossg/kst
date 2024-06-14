@@ -5,8 +5,12 @@ resources:
   - ../../base
 
 patches:
-  - target:
+  - patch: |-
+      - op: replace
+        path: "/spec/template/spec/containers/0/env/1"
+        value:
+          name: MAIN_TEXT
+          value: "Hello from folder #1"
+    target:
       kind: Deployment
       name: flask
-    path: ./deployment-patch.yaml
-
