@@ -18,4 +18,5 @@ spec:
         ports:
         - containerPort: 5000
         envFrom:
-        - name: my-app-config
+          - configMapRef:
+              name: my-app-config
